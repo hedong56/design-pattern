@@ -1,7 +1,38 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+  	  <groupId>com.infosys</groupId>
+	  <artifactId>parent</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+	  <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+  
   <groupId>com.test</groupId>
   <artifactId>design-pattern</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>design-pattern</name>
+  
+  
+  <dependencies>
+  
+  <!-- 日志依赖开始 -->
+     <dependency>
+  		<groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+     </dependency>
+     <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+     </dependency>
+     <dependency>
+            <groupId>log4j </groupId>
+            <artifactId>log4j </artifactId>
+     </dependency>
+     <!-- 日志依赖结束 -->
+  
+  	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+	  </dependency>
+  </dependencies>
 </project>

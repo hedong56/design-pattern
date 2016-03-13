@@ -10,5 +10,7 @@ package com.test.proxy.stati;
 public interface Subject {
 	
 	public void request();
+	
+	public int add(int add1,int add2);
 
 }

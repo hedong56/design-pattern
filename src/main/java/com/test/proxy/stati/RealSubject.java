@@ -1,5 +1,9 @@
 package com.test.proxy.stati;
 
+import org.apache.log4j.Logger;
+
+import com.test.proxy.dynamic.DynamicSubjectTest;
+
 /**
  * 真是角色
  * @author hedong
@@ -9,9 +13,17 @@ package com.test.proxy.stati;
  */
 public class RealSubject implements Subject {
 
+	static Logger logger=Logger.getLogger(RealSubject.class);
+	
 	@Override
 	public void request() {
-		System.out.println("我是真实角色!");
+		logger.info("我是真实角色!");
 	}
+
+	@Override
+	public int add(int add1, int add2) {
+		return add1+add2;
+	}
+
 
 }

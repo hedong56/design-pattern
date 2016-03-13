@@ -9,6 +9,7 @@ package com.test.proxy.stati;
  */
 public class ProxySubject implements Subject {
 	
+	//对真实对象的引用
 	private RealSubject realSubject;
 
 	@Override
@@ -25,6 +26,12 @@ public class ProxySubject implements Subject {
 		//可以换成别的函数
 		System.out.println("(代理中)调用真实角色后");
 
+	}
+
+
+	@Override
+	public int add(int add1, int add2) {
+		return 0;
 	}
 
 }
