@@ -12,6 +12,9 @@
   <artifactId>design-pattern</artifactId>
   <name>design-pattern</name>
   
+  <properties>  
+   	<argLine>-Dfile.encoding=UTF-8</argLine>  
+  </properties>  
   
   <dependencies>
   
