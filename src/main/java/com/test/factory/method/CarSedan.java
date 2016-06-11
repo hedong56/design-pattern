@@ -16,5 +16,12 @@ public class CarSedan extends Car {
 	public CarSedan() {
 		logger.info("生产了一辆小轿车！");
 	}
+	
+
+	public String getName() {
+		return "小轿车";
+	}
+	
+	
 
 }

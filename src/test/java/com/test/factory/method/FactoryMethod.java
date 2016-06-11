@@ -6,10 +6,10 @@ public class FactoryMethod {
 	
 	@Test
 	public void testFactory(){
-		Factory factorySedan=new FactorySedan();
+		Ifactory factorySedan=new FactorySedan();
 		Car sedan=factorySedan.createCar();
 		
-		Factory factoryTruck=new FactoryTruck();
+		Ifactory factoryTruck=new FactoryTruck();
 		Car truck=factoryTruck.createCar();
 	}
 
