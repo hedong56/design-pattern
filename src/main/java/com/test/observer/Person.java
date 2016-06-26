@@ -3,6 +3,7 @@ package com.test.observer;
 import org.apache.log4j.Logger;
 
 /**
+ * 
  * 具体的观察者
  * @author hedong
  * @date 2016年3月13日 下午5:30:53
