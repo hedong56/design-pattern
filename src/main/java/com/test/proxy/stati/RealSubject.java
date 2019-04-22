@@ -2,10 +2,9 @@ package com.test.proxy.stati;
 
 import org.apache.log4j.Logger;
 
-import com.test.proxy.dynamic.DynamicSubjectTest;
 
 /**
- * 真是角色
+ * 	真是角色
  * @author hedong
  * @date 2016年3月5日 下午8:30:47
  * @modifyNote
