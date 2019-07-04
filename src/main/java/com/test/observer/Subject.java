@@ -16,7 +16,7 @@ public interface Subject {
 	 * @date 2016年3月13日 下午5:07:50
 	 * @modifyNote
 	 */
-	public void addObserver(Observer observer);
+	void addObserver(Observer observer);
 	
 	/**
 	 * 删掉一个观察者
@@ -25,7 +25,7 @@ public interface Subject {
 	 * @date 2016年3月13日 下午5:08:33
 	 * @modifyNote
 	 */
-	public void deleteObserver(Observer observer);
+	void deleteObserver(Observer observer);
 	
 	/**
 	 * 主题被观察者变化后通知观察者
@@ -34,6 +34,6 @@ public interface Subject {
 	 * @date 2016年3月13日 下午5:09:54
 	 * @modifyNote
 	 */
-	public void notifyObservers();
+	void notifyObservers();
 
 }
