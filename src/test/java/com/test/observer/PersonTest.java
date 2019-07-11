@@ -10,11 +10,13 @@ public class PersonTest {
 	@Test
 	public void testUpdate(){
 		
-		//被观察者
-		ApplePhone subject=new ApplePhone(5000);
+
 		//观察者
 		Observer observer1=new Person("小明");
 		Observer observer2=new Person("小红");
+
+		//被观察者
+		ApplePhone subject=new ApplePhone(5000);
 		
 		subject.addObserver(observer1);
 		subject.addObserver(observer2);
