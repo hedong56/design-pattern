@@ -50,7 +50,7 @@ public class ApplePhone implements Subject {
 	public void notifyObservers() {
 		
 		for (Observer observer : observers) {
-			observer.update(price);
+			observer.listenTo(price);
 		}
 		
 	}

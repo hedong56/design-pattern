@@ -10,13 +10,13 @@ package com.test.observer;
 public interface Observer {
 	
 	/**
-	 * 观察者更新信息(价格)的方法
+	 * 观察者监听更新信息(价格)的方法
 	 * @Description
 	 * @author hedong
 	 * @date 2016年3月13日 下午5:12:43
 	 * @modifyNote 
 	 * @param price
 	 */
-	public void update(float price);
+	void listenTo(float price);
 
 }

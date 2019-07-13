@@ -22,7 +22,7 @@ public class Person implements Observer {
 	}
 
 	@Override
-	public void update(float price) {
+	public void listenTo(float price) {
 		logger.info(name+" 关注的手机价格已更新为："+String.valueOf(price));
 	}
 
