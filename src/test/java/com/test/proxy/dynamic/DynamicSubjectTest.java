@@ -18,7 +18,7 @@ public class DynamicSubjectTest {
 		
 		RealSubject realSubject=new RealSubject();
 		
-		InvocationHandler invocationHandler=new DynamicSubject(realSubject);
+		InvocationHandler invocationHandler=new DynamicProxySubject(realSubject);
 		
 		Class<?> classz=invocationHandler.getClass();
 		
